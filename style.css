@@ -44,7 +44,21 @@ img {
     border-radius: 8px;
 }
 
-.infodetails img {
-    float: left;
+.infodetails {
+    display: flex;
+    justify-content: space-evenly;
 }
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.webpages {
+    border: 5px solid rgb(146, 92, 185);
+    border-radius: 8px;
+    padding: 5px;
+}
+
 
