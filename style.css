@@ -8,7 +8,7 @@ body {
 
 header {
     display: flex;
-    padding: 40px;
+    padding: 30px;
     background-color: rgb(146, 92, 185);
     color: ivory;
     flex-direction: column;
@@ -21,7 +21,7 @@ header h1 {
 }
 
 header h2 {
-    margin: 10px;
+    margin: 5px;
     font-size: xx-large;
 }
 
@@ -35,3 +35,16 @@ a {
     padding: 15px;
     color: ivory;
 }
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.infodetails img {
+    float: left;
+}
+
