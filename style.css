@@ -28,16 +28,20 @@ header h2 {
 nav {
     display: flex;
     justify-content: center;
-    background-color: rgb(146, 92, 185);
 }
 
-a {
-    padding: 15px;
+.mainlinks {
+    background-color:  rgb(146, 92, 185);
+}
+
+.mainlinks a {
     color: ivory;
 }
 
 h2 {
+    margin: 40px;
     text-align: center;
+    color:  rgb(146, 92, 185);
 }
 
 img {
@@ -61,4 +65,11 @@ img {
     padding: 5px;
 }
 
+a {
+    padding: 15px;
+}
+
+footer a {
+    color: black;
+}
 
