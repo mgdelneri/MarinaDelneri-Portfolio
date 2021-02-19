@@ -1,5 +1,12 @@
+:root {
+    --banner-color:  rgb(146, 92, 185);
+    --banner-font: ivory;
+    --main-font: rgb(43, 37, 37);
+}
+
 * {
     box-sizing: border-box;
+    background-color: rgb(187, 173, 173);
 }
 
 body {
@@ -9,18 +16,20 @@ body {
 header {
     display: flex;
     padding: 30px;
-    background-color: rgb(146, 92, 185);
-    color: ivory;
+    background-color: var(--banner-color);
+    color: var(--banner-font);
     flex-direction: column;
     align-items: center;
 }
 
 header h1 {
+    background-color: var(--banner-color);
     margin: 10px;
     font-size: -webkit-xxx-large;
 }
 
 header h2 {
+    background-color: var(--banner-color);
     margin: 5px;
     font-size: xx-large;
 }
@@ -30,18 +39,27 @@ nav {
     justify-content: center;
 }
 
+main {
+    color: var(--main-font);
+}
+
 .mainlinks {
-    background-color:  rgb(146, 92, 185);
+    background-color: var(--banner-color);
 }
 
 .mainlinks a {
-    color: ivory;
+    color: var(--banner-font);
+    background-color: var(--banner-color);
 }
 
-h2 {
+main h2 {
     margin: 40px;
     text-align: center;
-    color:  rgb(146, 92, 185);
+    color: var(--banner-color);
+}
+
+header h2 {
+    color: var(--banner-font);
 }
 
 img {
@@ -60,7 +78,7 @@ img {
 }
 
 .webpages {
-    border: 5px solid rgb(146, 92, 185);
+    border: 5px solid var(--banner-color);
     border-radius: 8px;
     padding: 5px;
 }
@@ -70,6 +88,6 @@ a {
 }
 
 footer a {
-    color: black;
+    color: var(--main-font);
 }
 
