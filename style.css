@@ -72,6 +72,19 @@ header h2 {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 40px;
+}
+
+#bigbox {
+    width: 1200px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#smallbox {
+    width: 250px;
+    height: 250px;
 }
 
 .webpages {
