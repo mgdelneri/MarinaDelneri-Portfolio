@@ -62,13 +62,10 @@ header h2 {
     color: var(--banner-font);
 }
 
-img {
-    border-radius: 8px;
-}
-
 .infodetails {
     display: flex;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 .boxes {
@@ -90,4 +87,14 @@ a {
 footer a {
     color: var(--main-font);
 }
+
+#myphoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+
+
+/* to remove underline in <a> tag use text-decoration*/ 
 
