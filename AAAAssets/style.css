@@ -1,0 +1,164 @@
+:root {
+    --background-color: rgb(148, 130, 130);
+    --banner-color:  rgb(105, 64, 134);
+    --banner-font: ivory;
+    --main-font: rgb(43, 37, 37);
+    --bigbox-gradient: linear-gradient(rgb(44, 136, 83), rgb(33, 204, 33));
+    --smallbox-gradient: linear-gradient(rgb(105, 68, 68), rgb(197, 159, 159));
+}
+
+* {
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: var(--banner-color);
+    color: var(--banner-font);
+}
+
+header h1 {
+    background-color: var(--banner-color);
+    margin: 10px;
+    font-size: 80px;
+}
+
+header h2 {
+    background-color: var(--banner-color);
+    margin: 5px;
+    font-size: xx-large;
+    color: var(--banner-font);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    padding: 15px;
+    text-decoration: none;
+}
+
+.mainlinks {
+    background-color: var(--banner-color);
+}
+
+.mainlinks a {
+    color: var(--banner-font);
+    background-color: var(--banner-color);
+    font-size: x-large;
+}
+
+main {
+    color: var(--main-font);
+}
+
+main h2 {
+    margin: 40px;
+    text-align: center;
+    color: var(--banner-color);
+    font-size: xxx-large;
+}
+
+.infodetails {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+article {
+    width: 700px;
+    text-align: justify;
+    color: var(--banner-font);
+}
+
+p {
+    margin: 0;
+}
+
+#bigbox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 1200px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: var(--bigbox-gradient);
+    background-image: url(./Screen\ Shot\ 2021-02-20\ at\ 8.00.28\ PM\ 2.png);
+    background-size: cover;
+}
+
+#bigbox h3 {
+    font-size: xxx-large;
+    background-color: var(--background-color);
+    border-radius: 10px;
+}
+
+#bigbox a {
+    background-color: var(--bigbox-gradient);
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+#smallbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    background-image: var(--smallbox-gradient);
+}
+
+#smallbox h3 {
+    background-color: var(--smallbox-gradient);
+}
+
+#smallbox a {
+    background-color: var(--smallbox-gradient);
+}
+
+.webpages {
+    border: 8px solid var(--banner-color);
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    color:rgb(184, 150, 137);
+}
+
+a:active {
+    color: rgb(18, 18, 190);
+}
+
+footer a {
+    color: var(--main-font);
+    font-size: larger;
+}
+
+#myphoto {
+    width: 200px;
+    height: 225px;
+    border: 4px solid var(--banner-font);
+    border-radius: 8px;
+}
