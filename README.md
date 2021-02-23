@@ -15,7 +15,7 @@ The assigned criteria for the portfolio include:
 
 This is an image of the portfolio I created:
 
-![](.AAAAssets/screencapture-file-Users-Marina-Desktop-homework-coding-MarinaDelneri-Portfolio-index-html-2021-02-22-13_00_08.png)
+![](AAAAssets/screencapture-file-Users-Marina-Desktop-homework-coding-MarinaDelneri-Portfolio-index-html-2021-02-22-13_00_08.png)
 
 Before going into the details of my process, I would like to point out that this portfolio is of course meant to be fluid and updated. I have one project to showcase so far, as seen in the big image. My bio in the "After Me" section will also change as time goes on. Additionally, this is officially my first-ever code written from scratch, so several elements of the webpage and the code can and will be improved upon. 
 
