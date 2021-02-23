@@ -43,13 +43,13 @@ nav {
     justify-content: center;
 }
 
+.mainlinks {
+    background-color: var(--banner-color);
+}
+
 a {
     padding: 15px;
     text-decoration: none;
-}
-
-.mainlinks {
-    background-color: var(--banner-color);
 }
 
 .mainlinks a {
@@ -76,6 +76,13 @@ main h2 {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+}
+
+#myphoto {
+    width: 200px;
+    height: 225px;
+    border: 4px solid var(--banner-font);
+    border-radius: 8px;
 }
 
 article {
@@ -143,22 +150,15 @@ p {
     cursor: pointer;
 }
 
+footer a {
+    color: var(--main-font);
+    font-size: larger;
+}
+
 a:hover {
     color:rgb(184, 150, 137);
 }
 
 a:active {
     color: rgb(18, 18, 190);
-}
-
-footer a {
-    color: var(--main-font);
-    font-size: larger;
-}
-
-#myphoto {
-    width: 200px;
-    height: 225px;
-    border: 4px solid var(--banner-font);
-    border-radius: 8px;
 }
