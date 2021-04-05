@@ -43,6 +43,10 @@ nav {
     justify-content: center;
 }
 
+nav a {
+    font-weight: bold;
+}
+
 .mainlinks {
     background-color: var(--banner-color);
 }
@@ -103,19 +107,24 @@ p {
     height: 550px;
     margin-left: auto;
     margin-right: auto;
-    background-image: var(--bigbox-gradient);
-    background-image: url(./Screen\ Shot\ 2021-02-20\ at\ 8.00.28\ PM\ 2.png);
+    background-image: url(./screencapture-file-Users-Marina-Desktop-Coding-Group-Projects-National-Parks-and-Forecast-Finder-National-Parks-and-Forecast-Finder-index-html-2021-03-29-12_35_20.png);
     background-size: cover;
+    scroll-snap-type: mandatory;
 }
 
-#bigbox h3 {
-    font-size: xxx-large;
-    background-color: var(--background-color);
-    border-radius: 10px;
+#main-project {
+    font-size: xx-large;
+    background: transparent;
+    margin: 25px;
+    text-align: center;
 }
 
-#bigbox a {
-    background-color: var(--bigbox-gradient);
+#main-project a {
+    color: rgb(205, 165, 150);
+}
+
+#main-project a:hover {
+    color: var(--banner-color);
 }
 
 .boxes {
@@ -125,29 +134,45 @@ p {
     padding: 40px;
 }
 
-#smallbox {
+.webpages {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: 250px;
-    height: 250px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 1000px;
+    height: 600px;
     background-image: var(--smallbox-gradient);
-}
-
-#smallbox h3 {
-    background-color: var(--smallbox-gradient);
-}
-
-#smallbox a {
-    background-color: var(--smallbox-gradient);
-}
-
-.webpages {
     border: 8px solid var(--banner-color);
     border-radius: 30px;
     padding: 5px;
     cursor: pointer;
+    margin: 30px;
+}
+
+.project-name {
+    text-align: center;
+}
+
+.project-name a {
+    color: rgb(235, 192, 176);
+}
+
+#smallbox1 {
+    background-image: url(./screencapture-file-Users-Marina-Desktop-homework-coding-Code-Quiz-index-html-2021-03-08-14_05_44.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#smallbox2 {
+    background-image: url(./screencapture-file-Users-Marina-Desktop-homework-coding-Weather-Dashboard-index-html-2021-03-22-17_39_36.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#smallbox3 {
+    background-image: url(./screencapture-file-Users-Marina-Desktop-homework-coding-Work-Day-Scheduler-index-html-2021-03-15-14_17_21.png);
+    background-size: cover;
+    background-position: center;
 }
 
 footer a {
@@ -156,7 +181,7 @@ footer a {
 }
 
 a:hover {
-    color:rgb(184, 150, 137);
+    color: var(--banner-color);
 }
 
 a:active {
