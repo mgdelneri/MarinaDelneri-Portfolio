@@ -155,6 +155,7 @@ p {
 
 .project-name a {
     color: rgb(235, 192, 176);
+    font-size: larger
 }
 
 #smallbox1 {
