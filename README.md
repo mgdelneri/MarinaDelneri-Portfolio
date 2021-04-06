@@ -2,15 +2,15 @@
 
 GOAL:
 
-The goal of this project was to build a portfolio webpage that showcases my deployed coding projects. This portfolio is intended to set me up for success, as it will eventually be utilized in my future job search. The code for this webpage was to be written from scratch.
+The goal of this project was to update my portfolio webpage as well as other professional materials. 
 
-The code is meant to feature material that we have studied so far, such as several elements of HTML and CSS: flexbox, media queries, a number of different CSS variables, among others. 
+I went back to the portfolio I had already created a few weeks back, and we were assigned to add our group project and at least two other projects we created for our homework assignments. We were also supposed to update our GitHub profiles, making sure that we pinned repositories featuring our first group project and at least two other projects. The last two things we were supposed to update were our resume and LinkedIn profiles. 
 
-The assigned criteria for the portfolio include: Presenting my name, a photo, and links that connect the user to the different sections of the webpage; Sections that show who I am, my deployed projects, and ways to contact me; A larger image for my first project compared to the others; The ability to open the different deployed applications by clicking on the project images; Responsive design elements, allowing the user to view the portfolio on various different types of screens. 
+Besides the initial specifications, the portfolio was to also have a link to a PDF version of the resume. Each project shown was to also have a link to the deployed live version of the webpage and a link to the GitHub page with that particular repository. 
 
-This is an image of the portfolio I created:
+This is an image of the updated portfolio:
 
-![](AAAAssets/screencapture-file-Users-Marina-Desktop-homework-coding-MarinaDelneri-Portfolio-index-html-2021-02-22-13_00_08.png)
+![]()
 
 Before going into the details of my process, I would like to point out that this portfolio is of course meant to be fluid and updated. I have one project to showcase so far, as seen in the big image. My bio in the "After Me" section will also change as time goes on. Additionally, this is officially my first-ever code written from scratch, so several elements of the webpage and the code can and will be improved upon. 
 

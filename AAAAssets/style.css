@@ -116,14 +116,29 @@ p {
     font-size: xx-large;
     background: transparent;
     margin: 25px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
 #main-project a {
-    color: rgb(205, 165, 150);
+    color: rgb(235, 192, 176);
 }
 
 #main-project a:hover {
+    color: var(--banner-color);
+}
+
+.github-link {
+    margin: 0;
+    text-align: center;
+}
+
+.github-link a {
+    color: rgb(235, 192, 176);
+    padding-top: 5px;
+}
+
+.github-link a:hover {
     color: var(--banner-color);
 }
 
@@ -151,6 +166,7 @@ p {
 
 .project-name {
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .project-name a {
