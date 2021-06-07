@@ -192,15 +192,17 @@ p {
     background-position: center;
 }
 
+#smallbox4 {
+    background-image: url(./screencapture-localhost-3001-2021-05-24-07_57_11.png);
+    background-size: cover;
+    background-position: center;
+}
+
 footer a {
     color: var(--main-font);
     font-size: larger;
 }
 
 a:hover {
-    color: var(--banner-color);
-}
-
-a:active {
-    color: rgb(18, 18, 190);
+    color: rgb(20, 20, 136);
 }
